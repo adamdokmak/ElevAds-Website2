@@ -117,8 +117,8 @@ section {
 --------------------------------------------------------------*/
 .page-header {
   padding: 60px 0 60px 0;
-  padding-top: 220px;
-  padding-bottom: 420px;
+  padding-top: 270px;
+  padding-bottom: 370px;
   min-height: 30vh;
   position: relative;
 }
@@ -176,7 +176,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: black;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -190,7 +190,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #FFC452;
   color: #fff;
 }
 
@@ -1130,7 +1130,7 @@ section {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: #FFC452;
   font-size: 26px;
   line-height: 0;
 }
