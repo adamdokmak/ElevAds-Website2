@@ -109,7 +109,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #151515;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -176,7 +176,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: black;
+  background: #000;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -484,7 +484,7 @@ section {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #151515;
+  color: #000;
   font-weight: 400;
 }
 
@@ -584,13 +584,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: #000;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #151515;
+  color: #000;
   background-color: #ffc451;
 }
 
@@ -771,7 +771,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #151515;
+  color: #000;
   margin: 0 3px;
   border-radius: 4px;
   width: 36px;
@@ -785,7 +785,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #151515;
+  color: #000;
   background: #ffc451;
 }
 
@@ -802,7 +802,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #151515;
+  color: #000;
 }
 
 .team .member .member-info span {
