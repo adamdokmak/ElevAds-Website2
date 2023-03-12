@@ -117,8 +117,8 @@ section {
 --------------------------------------------------------------*/
 .page-header {
   padding: 60px 0 60px 0;
-  padding-top: 270px;
-  padding-bottom: 370px;
+  padding-top: 255px;
+  padding-bottom: 355px;
   min-height: 30vh;
   position: relative;
 }
