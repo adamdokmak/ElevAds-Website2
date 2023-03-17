@@ -1579,25 +1579,25 @@ div.spacer {
 }
 
 #footer .footer-top .footer-info p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     font-family: "Raleway", sans-serif;
     color: #fff;
 }
 
-#footer .footer-top .social-links a {
-    font-size: 18px;
+#footer .footer-top .social-links button {
+    font-size: 28px;
     display: inline-block;
-    background: #292929;
-    color: #fff;
+    background: #151515;
+    color: #ffc451;
     line-height: 1;
-    padding: 8px 0;
+    padding: 4px 0;
     margin-right: 4px;
-    border-radius: 4px;
+    border-radius: 10px;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 56px;
+    height: 56px;
     transition: 0.3s;
 }
 
