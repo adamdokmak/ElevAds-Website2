@@ -2,11 +2,29 @@ from flask import Flask, render_template, request, url_for
 from flask_bootstrap import Bootstrap5
 import smtplib
 import os
+from flask_talisman import Talisman
 from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
 bootstrap = Bootstrap5(app)
+
+
+csp = {
+    'default-src': [
+        '\'self\'',
+        '\'unsafe-inline\'',
+        'fonts.gstatic.com',
+        'www.google.com',
+        'webpack.js.org',
+        'github.com',
+        'fonts.googleapis.com',
+        'cdn.jsdelivr.net',
+        'unpkg.com'
+    ]
+}
+
+talisman = Talisman(app, content_security_policy=csp)
 
 
 @app.route('/', methods=["GET", "POST"])
@@ -26,6 +44,7 @@ def home():
                                     f"Email: {data.get('email')}\n"
                                     f"Subject: {data.get('subject')}\n"
                                     f"Message: {data.get('message')}\n")
+
     return render_template('home.html')
 
 

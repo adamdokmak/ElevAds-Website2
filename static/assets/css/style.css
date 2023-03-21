@@ -1125,8 +1125,12 @@ div.spacer {
 }
 
 .counts .image {
-    background: url("../img/counts-img.png") center center no-repeat;
-    background-size: contain;
+    /*background: url("../img/counts-img.png") center center no-repeat;*/
+    /*background-size: contain;*/
+    max-height: 90%;
+    max-width: 90%;
+    justify-content: center;
+    padding-left: 150px;
 }
 
 @media (max-width: 991px) {
