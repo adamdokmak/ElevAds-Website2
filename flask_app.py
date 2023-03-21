@@ -24,8 +24,7 @@ csp = {
     ]
 }
 
-talisman = Talisman(app, content_security_policy=csp)
-
+# talisman = Talisman(app, content_security_policy=csp)
 
 @app.route('/', methods=["GET", "POST"])
 def home():
@@ -44,7 +43,6 @@ def home():
                                     f"Email: {data.get('email')}\n"
                                     f"Subject: {data.get('subject')}\n"
                                     f"Message: {data.get('message')}\n")
-
     return render_template('home.html')
 
 
