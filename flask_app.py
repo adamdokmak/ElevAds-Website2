@@ -2,13 +2,27 @@ from flask import Flask, render_template, request, url_for
 from flask_bootstrap import Bootstrap5
 import smtplib
 import os
-import flask_talisman
+from flask_talisman import Talisman
 from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
 bootstrap = Bootstrap5(app)
 
+csp = {
+    'default-src': [
+        '\'self\'',
+        '\'unsafe-inline\'',
+        'fonts.gstatic.com',
+        'fonts.googleapis.com',
+        'cdn.jsdelivr.net',
+        'unpkg.com',
+        'www.google.com',
+        'maps.googleapis.com/maps'
+    ]
+}
+
+talisman = Talisman(app, content_security_policy=csp)
 
 @app.route('/', methods=["GET", "POST"])
 def home():
