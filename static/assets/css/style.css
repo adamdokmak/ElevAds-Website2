@@ -711,23 +711,23 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .content h3 {
+.about .content h3 {
     font-weight: 700;
     font-size: 28px;
     font-family: "Poppins", sans-serif;
 }
 
-.features .content ul {
+.about .content ul {
     list-style: none;
     padding: 0;
 }
 
-.features .content ul li {
+.about .content ul li {
     padding: 0 0 8px 26px;
     position: relative;
 }
 
-.features .content ul i {
+.about .content ul i {
     position: absolute;
     font-size: 20px;
     left: 0;
@@ -735,35 +735,35 @@ section {
     color: #ffc451;
 }
 
-.features p span {
+.about p span {
     color: #ffc451;
 }
 
-.features .content p:last-child {
+.about .content p:last-child {
     margin-bottom: 0;
 }
 
-.features {
+.about {
     padding-top: 20px;
 }
 
-.features .icon-box {
+.about .icon-box {
     padding-left: 15px;
 }
 
-.features .icon-box h4 {
+.about .icon-box h4 {
     font-size: 20px;
     font-weight: 700;
     margin: 5px 0 10px 60px;
 }
 
-.features .icon-box i {
+.about .icon-box i {
     font-size: 48px;
     float: left;
     color: #ffc451;
 }
 
-.features .icon-box p {
+.about .icon-box p {
     font-size: 15px;
     color: #848484;
     margin-left: 60px;
@@ -773,7 +773,7 @@ div.spacer {
     height: 3.5rem;
 }
 
-.features .image {
+.about .image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -843,6 +843,7 @@ div.spacer {
 .cta {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
     background-size: cover;
+    margin: 0;
     padding: 60px 0;
 }
 
