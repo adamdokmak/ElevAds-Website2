@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap5
 import smtplib
 import os
@@ -23,6 +23,7 @@ csp = {
 }
 
 talisman = Talisman(app, content_security_policy=csp)
+
 
 @app.route('/', methods=["GET", "POST"])
 def home():
